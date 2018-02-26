@@ -11,7 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = caretaker
 TEMPLATE = app
 
-# For static application linkage
+# For static application Blinkage
 CONFIG += static
 
 # The following define makes your compiler emit warnings if you use
