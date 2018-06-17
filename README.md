@@ -14,4 +14,4 @@ same with just few clicks of a mouse, especially when Windows shutdown command r
 and you want to turn off your computer in 4 hours and 53 minutes.
 
 ### Download
-Release version can be download from Releases tab or directly from [this link](https://github.com/mtszkw/shutdown/releases/download/v1.0/shutdown-gui.zip).
+Release version can be download from Releases tab or directly from [this link](https://github.com/mtszkw/shutdown/releases/download/1.1/shutdown-gui-v1.1.zip).
