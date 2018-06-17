@@ -1,23 +1,23 @@
 #pragma once
 
 #include <sstream>
-#include "timer.hpp"
+#include "time.hpp"
 
 class Scheduler
 {
 public:
     Scheduler() {}
 
-    const Timer& getTime() const {
+    Time& time() {
         return _time;
     }
 
     void addTime(const int hours, const int minutes) {
-        _time.addTime(hours, minutes);
+        _time.add(hours, minutes);
     }
 
     void scheduleShutdown() const {
-        const int totalTimeSecs = 3600 * _time.getHours() + 60 * _time.getMinutes();
+        const int totalTimeSecs = 3600 * _time.hours() + 60 * _time.minutes();
         std::ostringstream commandStream;
         commandStream << "shutdown -s -t " << totalTimeSecs;
         system(commandStream.str().c_str());
@@ -28,5 +28,5 @@ public:
     }
 
 private:
-    Timer _time;
+    Time _time;
 };
