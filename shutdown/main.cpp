@@ -16,6 +16,9 @@ int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char*, int n
     nana::form fm;
     nana::drawing dw{ fm };
     
+    nana::API::window_icon(fm, nana::paint::image(std::string("shutdown.exe")));
+    //nana::API::window_icon(fm.handle(), nana::paint::image("shutdown.ico"));
+
     fm.caption("Shutdown");
     fm.size(nana::size(515, 220));
     fm.bgcolor(nana::color(240, 240, 240));
