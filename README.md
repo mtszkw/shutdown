@@ -2,7 +2,7 @@
 Scheduling system (Windows actually, at the moment) shutdown using simple GUI.
 
 <p align="center">
-<img src ="https://image.ibb.co/mCnHVJ/shutdown1.png" />
+<img src ="https://image.ibb.co/gdz9cy/shutdown1.png" />
 </p>
 
 Simple, standalone program that can be used to schedule your system shutdown, if you want to watch a movie late night,
